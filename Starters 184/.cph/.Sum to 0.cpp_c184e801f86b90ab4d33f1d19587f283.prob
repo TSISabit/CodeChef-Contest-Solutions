@@ -1,0 +1,1 @@
+{"name":"Local: Sum to 0","url":"k:\\Sabit's Programming\\Codechef Contest\\Starters 184\\Sum to 0.cpp","tests":[{"id":1746023855509,"input":"3\n1\n2\n3","output":"-1\n3 -3\n1 2 -3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"k:\\Sabit's Programming\\Codechef Contest\\Starters 184\\Sum to 0.cpp","group":"local","local":true}
