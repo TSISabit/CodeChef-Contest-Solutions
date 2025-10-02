@@ -3,23 +3,19 @@ using namespace std;
 #define int long long int
 
 void solve() {
-    int N;
-    cin >> N;
-    
-    if (N == 1) {
-        cout << 1 << endl;
-        return;
+    int n; 
+    cin >> n; 
+    vector<int>a; 
+    for(int i = 2; i <= n; i += 2){
+        a.push_back(i); 
     }
-    for (int i = 1; i <= N; ++i) {
-        int ans;
-        if (i < N) {
-            ans = i + 1;
-        } else {
-            ans = 1;
-        }
-        cout << ans << (i == N ? "" : " ");
+    for(int i = 1; i <= n; i += 2){
+        a.push_back(i); 
     }
-    cout << endl;
+    for(int i = 0; i < n; i++){
+        cout << a[i] << ' '; 
+    }
+    cout << endl; 
 }
 
 int32_t main() {
